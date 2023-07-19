@@ -38,6 +38,11 @@ projects [0][4] = "Project 3";  //project 3 name
 projects [0][5] = "Project 3 Details"; //project 3 details
 images2 [3] = 'images/6.jpg'; //project 3 image
 
+
+
+
+
+
 projects [0][6] = "Computer Skills";  //skill 1 name
 projects [0][7] = "I have some computer skills"; //skill 1 details
 
@@ -108,23 +113,7 @@ function projectDetails(x){
         }
 }
 
-/*const buttons = document.querySelectorAll('.select');
-const overlay = document.querySelector('.overlay');
-const overlayDetails = document.querySelector('.overlay-inner');
 
-function open(e){
-    overlay.classList.add('open');
-
-    document.getElementById('overlayTitle').innerHTML = buttons[1].
-
-}
-
-function close(){
-    overlay.classList.remove('open');
-}
-
-buttons.forEach(button => button.addEventListener('click', open));
-overlay.addEventListener('click', close);*/
 
 function display(value){
 
